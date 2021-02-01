@@ -1,0 +1,13 @@
+void main(){
+  
+  
+  var Mahasiswa1 = Mahasiswa();
+  Mahasiswa1.id = 2018021038;
+  Mahasiswa1.nama = 'Alfredo Torence';
+  print("${Mahasiswa1.id} dan ${Mahasiswa1.nama}");
+}
+  
+  class Mahasiswa{
+  int id= -1;
+  String nama;
+  }
